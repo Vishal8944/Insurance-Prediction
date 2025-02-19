@@ -14,7 +14,7 @@ data=pd.read_csv("insurance.csv")
 array = data.values
 X = array[:, 0:-1]
 
-loaded_model = load(open('model.pkl', 'rb'))
+loaded_model = load(open('model', 'rb'))
 
 
 
